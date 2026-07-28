@@ -9,14 +9,17 @@ Thumbs.db
 # Environment
 .env
 .env.*
+!.env.example
 
-# Node.js
+# Dependencies
 **/node_modules/
+
+# Build
 **/dist/
+**/build/
 
 # Flutter
 **/.dart_tool/
-**/build/
 
 # Android
 **/.gradle/
@@ -24,3 +27,9 @@ Thumbs.db
 
 # iOS
 **/Pods/
+
+# AI tools
+.agents/
+.claude/
+.windsurf/
+skills-lock.json
